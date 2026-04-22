@@ -1,0 +1,982 @@
+
+/* Fondos */
+
+.inicio {
+    background-image:url('GIFs/Fondo.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.equipos {
+    background-image:url('Fotos/Fondos/equipos.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.jugadores{
+    background-image:url('Fotos/Fondos/jugadores.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.partidos{
+    background-image:url('Fotos/Fondos/partidos.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.supertecnicas{
+    background-image:url('Fotos/Fondos/supertecnicas.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.videojuegos {
+    background-image:url('Fotos/Fondos/videojuegos.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+/* Inicio*/
+
+.logo {
+	margin: 10px;
+}
+.logo:hover {
+	filter: brightness(1.5);	
+}
+
+header{
+    position: absolute; 
+    background-color: rgb(9, 117, 172);
+	left: 20%;
+	border: 1px #ffffff solid;
+	border-radius: 15px;
+    right: 20%;
+}
+nav{
+    max-width: 75%;
+    margin: 0 auto;
+	align-items: center;
+}
+header img{
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 auto;
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+nav li a{
+    font-size: 1em;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 15px 10px;
+    color: black;
+    background-color: #F3E513;
+    border: 1px solid #ffffff;
+	border-radius: 10px;
+}
+nav li a:hover{
+    color: #ffffff;
+    background-color: #10FDFD;
+}
+
+#inicio {
+    position: absolute;
+    top: 235px;
+    right: 400px;
+    left: 400px;
+    height: 600px;
+    background-color: #10AAFD ;
+	opacity: 0.7;
+    border-radius: 25px;
+    align-content: center;
+}
+
+#menu {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#Frase {
+    position: absolute;
+    font-family: 'Expletus Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    left: 100px;
+    right: 100px;
+    top: 350px;
+}
+
+#Firma {
+    position: absolute;
+    font-family: 'Expletus Sans', sans-serif;
+    font-size: 30px;
+    top: 80%;
+    right: 20px;
+
+}
+
+.fotoInicioA {
+    left: 100px;
+    width: 20%;
+    top: 20px;
+    position: absolute;
+    border: #000000 solid;
+    border-radius: 10px;
+}
+
+.fotoInicioB {
+    left: 450px;
+    width: 20%;
+    top: 20px;
+    position: absolute;
+    border: #000000 solid;
+    border-radius: 10px;
+}
+
+.fotoInicioC {
+    right: 100px;
+    width: 20%;
+    top: 20px;
+    position: absolute;
+    border: #000000 solid;
+    border-radius: 10px;
+}
+
+.fotoInicioD {
+    left: 265px;
+    width: 20%;    
+    top: 175px;
+    position: absolute;
+    border: #000000 solid;
+    border-radius: 10px;
+}
+
+.fotoInicioE {
+    right: 265px;
+    width: 20%;
+    top: 175px;
+    position: absolute;
+    border: #000000 solid;
+    border-radius: 10px;
+}
+
+.fotoInicioA:hover, .fotoInicioB:hover, .fotoInicioC:hover, .fotoInicioD:hover, .fotoInicioE:hover {
+        filter: brightness(1.2);	
+}
+
+footer {
+    background-color: rgb(9, 117, 172);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.acercade {
+    color: #fff;
+}
+
+.acercade:hover {
+    color: #000;
+}
+
+/* Equipos */
+
+#TitEq1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 75px;
+    left: 38%;
+}
+
+#TitEq2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 75px;
+    left: 38%;
+    top: 1700px;
+}
+
+h2 {
+    font-family: 'Tourney', sans-serif;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+#informacion {
+    font-family: 'Playpen Sans', cursive;
+    position: absolute;
+    top: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fotoEscudo{
+    top: 10px;
+    left: 15%;
+    width: 150px;
+    position: absolute;
+}
+
+.fotoEquipo {
+    top: 10px;
+    left: 37%;
+    width: 400px;
+    position: absolute;
+
+}
+
+.fotoEquipacion {
+    top: 10px;
+    left: 70%;
+    width: 315px;
+    position: absolute;
+}
+
+#Escudo {
+    font-family: 'EB Garamond', serif;
+    top: 145px;
+    left: 311px;
+    position: absolute;
+}
+
+#Equipo {
+    font-family: 'EB Garamond', serif;
+    top: 225px;
+    left: 785px;
+    position: absolute;
+}
+
+#Equipacion {
+    font-family: 'EB Garamond', serif;
+    top: 185px;
+    left: 1280px;
+    position: absolute;
+}
+
+.cajaRaimon1 { 
+    background: #ffdf28;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    opacity: 0.9;
+    height: 500px;
+    top: 175px;
+}
+
+.cajaRaimonGo { 
+    background: #ffdf28;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    opacity: 0.9;
+    height: 500px;
+    top: 700px;
+}
+
+.cajaRaimonA { 
+    background: #ffdf28;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    opacity: 0.9;
+    height: 500px;
+    top: 1225px;
+}
+
+.cajaRoyal { 
+    background: #0A902D;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    opacity: 0.9;
+    height: 500px;
+    top: 1800px;
+}
+
+.cajaJapon { 
+    background: #2897ff;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    opacity: 0.9;
+    height: 500px;
+    top: 2330px;
+}
+
+.cajaChrono { 
+    background: #e2c624;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    opacity: 0.9;
+    height: 500px;
+    top: 2860px;
+}
+
+.cajaEarth { 
+    background: #3c26ff;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    opacity: 0.9;
+    height: 500px;
+    top: 3390px;
+}
+
+.cajaAlia { 
+    background: #ffffff;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    opacity: 0.9;
+    height: 500px;
+    top: 3920px;
+}
+
+.cajaJaponO { 
+    background: #3e17cc;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    opacity: 0.9;
+    height: 500px;
+    top: 4450px;
+}
+
+/* Jugadores */
+
+#titPro {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 40%;
+}
+#titPro2 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 865px;
+    left: 40%;
+}
+
+h3{
+    font-family: 'Caveat', cursive;
+    left: 275px;
+    position: absolute;
+    font-size: 20px;
+    top: 1px;
+}
+
+
+#RobotoSlab {
+    font-family: 'Roboto Slab', serif;
+    left: 275px;
+    position: absolute;
+    top: 40px;
+    font-size: 14px;
+}
+
+.cajaMark { 
+  background: #e9b817;
+  border-radius: 10px;
+  border: #000000 solid;
+  left: 60px;
+  position: absolute;
+  right: 100px;
+  height: 225px;
+  opacity: 0.9;
+}
+
+.cajaArion { 
+    background: #e9b817;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    height: 225px;
+    top: 400px;
+    opacity: 0.9;
+
+}
+
+.cajaSonny { 
+    background: #e9b817;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    height: 225px;
+    top: 640px;
+    opacity: 0.9;
+
+}
+
+.cajaAxel { 
+    background: #e05151;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    height: 225px;
+    top: 950px;
+    opacity: 0.9;
+
+}
+
+.cajaJude { 
+    background: #e05151;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    height: 225px;
+    top: 1190px;
+    opacity: 0.9;
+
+}
+
+.cajaVictor { 
+    background: #e05151;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    height: 225px;
+    top: 1430px;
+    opacity: 0.9;
+
+}
+
+.cajaRiccardo { 
+    background: #e05151;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    height: 225px;
+    top: 1670px;
+    opacity: 0.9;
+
+}
+
+.cajaEliott { 
+    background: #e05151;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    height: 225px;
+    top: 1910px;
+    opacity: 0.9;
+
+}
+
+.cajaHeath { 
+    background: #e05151;
+    border-radius: 10px;
+    border: #000000 solid;
+    left: 60px;
+    position: absolute;
+    right: 100px;
+    height: 225px;
+    top: 2150px;
+    opacity: 0.9;
+}
+
+.Fotos {
+    width: 225px;
+    left: 20px;
+}
+
+/* Supertécnicas */
+ 
+.videoS video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+  
+  
+.videoS {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+#Tornado {
+    position: relative;
+    font-size: 40px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;     
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+#TituloS {
+    position: relative;
+    font-size: 40px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;     
+    font-family: 'Stick No Bills', sans-serif;
+    top: 10px;
+}
+
+
+#textoSI {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#textoSD {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.TornadoIzq { 
+    background: #db8a2d;
+    border-radius: 10px;
+    border: #f0b681 solid;
+    opacity: 0.9;
+    position: absolute;
+    right: 72%;
+    top: 210px;
+    left: 25px;
+    height: 450px;
+}
+
+.TornadoDer { 
+    background: #db8a2d;
+    border-radius: 10px;
+    border: #f0b681 solid;
+    opacity: 0.9;
+    position: absolute;
+    left: 72%;
+    top: 210px;
+    right: 25px;
+    height: 450px;
+}
+
+.ManoIzq { 
+    background: rgb(219, 207, 45);
+    border-radius: 10px;
+    border: #ffffff solid;
+    opacity: 0.9;
+    position: absolute;
+    right: 72%;
+    top: 710px;
+    left: 25px;
+    height: 450px;
+}
+
+.ManoDer { 
+    background: rgb(219, 207, 45);
+    border-radius: 10px;
+    border: #ffffff solid;
+    opacity: 0.9;
+    position: absolute;
+    left: 72%;
+    top: 710px;
+    right: 25px;
+    height: 450px;
+}
+
+.VentiscaIzq { 
+    background: rgb(151, 151, 143);
+    border-radius: 10px;
+    border: #ffffff solid;
+    opacity: 0.9;
+    position: absolute;
+    right: 72%;
+    top: 1210px;
+    left: 25px;
+    height: 450px;
+}
+
+.VentiscaDer { 
+    background: rgb(151, 151, 143);
+    border-radius: 10px;
+    border: #ffffff solid;
+    opacity: 0.9;
+    position: absolute;
+    left: 72%;
+    top: 1210px;
+    right: 25px;
+    height: 450px;
+}
+
+.TierraIzq { 
+    background: rgb(18, 87, 190);
+    border-radius: 10px;
+    border: #26db20 solid;
+    opacity: 0.9;
+    position: absolute;
+    right: 72%;
+    top: 1710px;
+    left: 25px;
+    height: 450px;
+}
+
+.TierraDer { 
+    background: rgb(18, 87, 190);
+    border-radius: 10px;
+    border: #26db20 solid;
+    opacity: 0.9;
+    position: absolute;
+    left: 72%;
+    top: 1710px;
+    right: 25px;
+    height: 450px;
+}
+
+.RupturaDer { 
+    background: rgb(125, 15, 158);
+    border-radius: 10px;
+    border: #2757f3 solid;
+    opacity: 0.9;
+    position: absolute;
+    left: 72%;
+    top: 2210px;
+    right: 25px;
+    height: 450px;
+}
+
+.RupturaIzq { 
+    background: rgb(125, 15, 158);
+    border-radius: 10px;
+    border: #2757f3 solid;
+    opacity: 0.9;
+    position: absolute;
+    right: 72%;
+    top: 2210px;
+    left: 25px;
+    height: 450px;
+}
+
+.FotPer1 {
+    position: absolute;
+    margin-left: 10px ;
+    left: 10%;
+    width: 20%;
+    align-content: center;    
+}
+
+.FotPer2 {
+    position: absolute;
+    margin-left: 10px ;
+    left: 40%;
+    width: 20%;
+    align-content: center;    
+}
+
+.FotPer3 {
+    position: absolute;
+    margin-left: 10px ;
+    left: 70%;
+    width: 20%;
+    align-content: center;    
+}
+
+.FotPer1:hover, .FotPer2:hover, .FotPer3:hover {
+    filter: brightness(0.7);
+}
+
+/* Partidos */
+
+#Tabla1 {
+	width: 50%;
+	text-align: center;
+	background-color: rgb(240, 240, 240);
+	top: 12%;
+    margin: 0 auto;
+    height: 500px;
+    opacity: 0.9;
+}
+
+.partido {
+    font-family: 'Jura', sans-serif;
+    font-size: 35px;
+    background-color: darkgrey;
+}
+
+#titPar {
+    font-family: 'Jura', sans-serif;
+    position: absolute;
+    font-size: 35px;
+    color: #ffffffff;
+    left: 44%;
+    top: 75px;
+    background-color: #000;
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.resultado {
+    font-size: 35px;
+}
+
+/* Videojuegos */
+
+#TInazuma1 {
+    font-family: 'Pixelify Sans', sans-serif;
+    position: absolute;
+    left: 38%;
+    font-size: 25px;
+    top: 15%;
+}
+
+#TInazuma2 {
+    font-family: 'Pixelify Sans', sans-serif;
+    position: absolute;
+    left: 38%;
+    font-size: 25px;
+    top: 69%;
+}
+
+#TInazuma3 {
+    font-family: 'Pixelify Sans', sans-serif;
+    position: absolute;
+    left: 38%;
+    font-size: 25px;
+    top: 1200px;
+}
+
+.youtube video {
+    height: auto;
+    display: block;
+}
+  
+  
+.youtube {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    max-width: 800px;
+    position: absolute;
+    top: 25%;
+    right: 2%;
+}
+
+.youtube2 video {
+    height: auto;
+    display: block;
+}
+  
+  
+.youtube2 {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    max-width: 800px;
+    position: absolute;
+    top: 80%;
+    right: 2%;
+}
+
+.youtube3 video {
+    height: auto;
+    display: block;
+}
+  
+  
+.youtube3 {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    max-width: 800px;
+    position: absolute;
+    top: 1300px;
+    right: 2%;
+}
+
+.OP1 {
+    position: absolute;
+    right: 9%;
+    top: 58%;
+}
+
+.OP2 {
+    position: absolute;
+    right: 9%;
+    top: 1100px;
+}
+
+.OP3 {
+    position: absolute;
+    right: 9%;
+    top: 1625px;
+}
+
+.Inazuma1 { 
+    background: #1a872a;
+    border-radius: 10px;
+    border: #83de90 solid;
+    left: 60px;
+    position: absolute;
+    right: 32%;
+    height: 40%;
+    opacity: 0.9;
+    top: 25%;
+}
+
+.Inazuma2 { 
+    background: linear-gradient(#3fe0c5, #e0903f);
+    border-radius: 10px;
+    border: #83de90 solid;
+    left: 60px;
+    position: absolute;
+    right: 32%;
+    height: 40%;
+    opacity: 0.9;
+    top: 80%;
+}
+
+.Inazuma3 { 
+    background: linear-gradient(#e0903f, #09d61d, #8709d6);
+    border-radius: 10px;
+    border: #83de90 solid;
+    left: 60px;
+    position: absolute;
+    right: 32%;
+    height: 40%;
+    opacity: 0.9;
+    top: 1300px;
+}
+
+.fotoInazuma1 {
+    position: absolute;
+    width: 20%;
+    left: 37%;
+}
+
+.fotoInazuma21 {
+    position: absolute;
+    width: 20%;
+    left: 20%;
+}
+
+.fotoInazuma22 {
+    position: absolute;
+    width: 20%;
+    left: 60%;
+}
+
+.fotoInazuma31 {
+    position: absolute;
+    width: 20%;
+    left: 15%;
+}
+
+.fotoInazuma32 {
+    position: absolute;
+    width: 20%;
+    left: 40%;
+}
+
+.fotoInazuma33 {
+    position: absolute;
+    width: 20%;
+    left: 65%;
+}
+
+#InfV {
+    font-family: 'Playpen Sans', cursive;
+    font-size: 14px;
+}
+
+/* Acerca de */
+
+#AcercaDe {
+    position: absolute;
+    top: 100px;
+    right: 400px;
+    left: 400px;
+    background-color: #10AAFD ;
+    border-radius: 25px;
+    align-content: center;
+}
+
+#TitulosA {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-left: 5px;
+}
+
+#InfA {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    margin-left: 5px;
+
+}
+
+#FotoA {
+    width: 250px;
+    float: right;
+    margin-right: 30px;
+}
+
+.mapa {
+    margin-left: 250px;
+}
+
